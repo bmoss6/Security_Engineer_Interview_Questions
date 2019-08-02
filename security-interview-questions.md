@@ -1,6 +1,6 @@
 # Encryption and Authentication
 
-    1. *What is a three-way handshake?*
+* *What is a three-way handshake?*
     
     A three-way handshake is the typical exchange process for establishing a TCP (Transmission Control Protocol) session between a client and server.
     It involves the client first sending a SYN packet to the server. The server will then respond with an SYN/ACK packet (acknowledging the reception of the client's original packet). Finally, once the SYN/ACK has been received by the client, a final ACK packet will be sent to the
