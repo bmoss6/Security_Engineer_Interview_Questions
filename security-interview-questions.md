@@ -2,10 +2,14 @@
 
 * *What is a three-way handshake?*
     
-    A three-way handshake is the typical exchange process for establishing a TCP (Transmission Control Protocol) session between a client and server.
+A three-way handshake is the typical exchange process for establishing a TCP (Transmission Control Protocol) session between a client and server.
     It involves the client first sending a SYN packet to the server. The server will then respond with an SYN/ACK packet (acknowledging the reception of the client's original packet). Finally, once the SYN/ACK has been received by the client, a final ACK packet will be sent to the
 server, indicating that the the connection has been established and data can be transmitted from the client and server. 
-    * How do cookies work?
+
+* *How do cookies work?
+
+Cookies are small data packets traditionally given by webservers to client's as a way to associate identity. Most commonly cookies are stored using the browser's internal storage. Cookies can be used for a wide variety of purposes such as limiting the need to re-authenticate to a server, monitoring web browsing activity, and saving user preferences. 
+
     * How do sessions work?
     * Explain how OAuth works.
     * What is a public key infrastructure flow and how would I diagram it?
