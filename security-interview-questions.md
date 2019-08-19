@@ -14,7 +14,10 @@ Cookies are small data packets traditionally given by webservers to client's as 
 
 Session is a term used to denote a temporary communication exchange between two or more computing devices. In TCP a session is established by a three-way handshake and state is maintained via IP/Port tuples, TCP sequence and ack numbers. In TLS/SSL a session is established
 
-    * Explain how OAuth works.
+* *Explain how OAuth works*
+
+OAuth (Open Authentication) is a standard that defines a way for users to authorize without the need for sharing of credentials. A common use for OAuth is using your Google, Facebook, or other service provider credentials to create an account/login to another application...
+
     * What is a public key infrastructure flow and how would I diagram it?
     * Describe the difference between synchronous and asynchronous encryption.
     * Describe SSL handshake.
